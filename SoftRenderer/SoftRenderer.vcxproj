@@ -81,7 +81,7 @@
     <ClCompile Include="DirectionalLight.cpp" />
     <ClCompile Include="Math3D.cpp" />
     <ClCompile Include="Matrix4X4.cpp" />
-    <ClCompile Include="SoftRasterizer.cpp" />
+    <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="Texture2D.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="Vector2.cpp" />
