@@ -870,7 +870,7 @@ void FillBuffer()
 //渲染部分，传入参数:模型，贴图，transform，在这里做各种三维变换、三角形光栅化，产出结果是整个屏幕所有像素点颜色的buffer
 void Render(OBJModel* model, Texture2D* texture, Transform* transform)
 {
-	transform->Rotation.y += 5.0f;
+	transform->Rotation.y += 1.0f;
 
 	Matrix4X4 m, v, p;
 	m.Set_Identity();
